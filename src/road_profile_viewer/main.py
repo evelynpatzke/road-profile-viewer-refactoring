@@ -15,6 +15,7 @@ import plotly.graph_objects as go
 from numpy.typing import NDArray
 from dash import Dash, Input, Output, dcc, html
 from road_profile_viewer.road import generate_road_profile
+from road_profile_viewer.geometry import find_intersection
 
 
 # =============================================================================
