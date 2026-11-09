@@ -13,10 +13,11 @@ for educational purposes). It creates an interactive Dash application that visua
 import numpy as np
 import plotly.graph_objects as go
 from dash import Dash, Input, Output, dcc, html
-from geometry import (
+from numpy.typing import NDArray
+
+from road_profile_viewer.geometry import (
     find_intersection,
 )
-from numpy.typing import NDArray
 
 # =============================================================================
 # ROAD PROFILE GENERATION
